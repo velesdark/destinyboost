@@ -391,6 +391,7 @@ class ModelCatalogProduct extends Model
                     //BOF Related Options
                     'master_option' => $product_option['master_option'],
                     // EOF Related Options
+                    'show_title' => $product_option['show_title'],
                     'required' => $product_option['required']
                 );
             } //BOF Related Options
@@ -405,6 +406,7 @@ class ModelCatalogProduct extends Model
                     'master_option' => $product_option['master_option'],
                     'master_option_value' => $product_option['master_option_value'],
                     // EOF Related Options
+                    'show_title' => $product_option['show_title'],
                     'required' => $product_option['required']
                 );
             }

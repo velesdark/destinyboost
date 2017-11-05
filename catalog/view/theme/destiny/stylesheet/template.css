@@ -963,6 +963,7 @@ li {
     float: right;
 }
 
+
 /* Cначала обозначаем стили для IE8 и более старых версий
 т.е. здесь мы немного облагораживаем стандартный чекбокс. */
 .checkbox {
@@ -971,7 +972,6 @@ li {
     width: 17px;
     height: 17px;
 }
-
 /* Это для всех браузеров, кроме совсем старых, которые не поддерживают
 селекторы с плюсом. Показываем, что label кликабелен. */
 .checkbox + label {
@@ -987,7 +987,6 @@ li {
     position: absolute;
     opacity: 0;
 }
-
 .checkbox:not(checked) + label {
     position: relative; /* будем позиционировать псевдочекбокс относительно label */
     padding: 0 0 0 35px; /* оставляем слева от label место под псевдочекбокс */
@@ -996,11 +995,9 @@ li {
     font-weight: 300;
     margin-right: 10px;
 }
-
 .checkbox:checked + label {
     color: #00ebff;
 }
-
 /* Оформление первой части чекбокса в выключенном состоянии (фон). */
 .checkbox:not(checked) + label:before {
     content: '';
@@ -1013,7 +1010,6 @@ li {
     box-sizing: border-box;
 
 }
-
 /* Оформление второй части чекбокса в выключенном состоянии (переключатель). */
 .checkbox:not(checked) + label:after {
     content: '';
@@ -1025,19 +1021,16 @@ li {
     height: 25px;
     transition: all .2s; /* анимация, чтобы чекбокс переключался плавно */
 }
-
 /* Меняем фон чекбокса, когда он включен. */
 .checkbox:checked + label:before {
     background: url(../images/check.png) no-repeat 0 0;
     border: 1px solid #123456;
     border: 0;
 }
-
 /* Сдвигаем переключатель чекбокса, когда он включен. */
 .checkbox:checked + label:after {
     /*left: 26px;*/
 }
-
 /* Показываем получение фокуса. */
 .checkbox:focus + label:before {
     /*box-shadow: 0 0 0 3px rgba(255,255,0,.5);*/
@@ -1047,13 +1040,15 @@ li {
     margin-top: 25px;
 }
 
+
+
+
 .radio {
     vertical-align: top;
     width: 17px;
     height: 17px;
     margin: 0 3px 0 0;
 }
-
 .radio + label {
     cursor: pointer;
     color: #9a9a9a;
@@ -1066,17 +1061,14 @@ li {
     float: left;
     box-sizing: border-box;
 }
-
 .radio:not(checked) {
     position: absolute;
     opacity: 0;
 }
-
 .radio:not(checked) + label {
     position: relative;
     padding: 0 0 0 35px;
 }
-
 .radio:not(checked) + label:before {
     content: '';
     position: absolute;
@@ -1090,7 +1082,6 @@ li {
     display: block;
     box-sizing: border-box;
 }
-
 .radio:not(checked) + label:after {
     content: '';
     position: absolute;
@@ -1104,11 +1095,9 @@ li {
     opacity: 0;
     transition: all .2s;
 }
-
 .radio:checked + label:after {
     opacity: 1;
 }
-
 .radio:checked + label:before {
     border-color: #00ebff;
 }
@@ -1647,9 +1636,14 @@ input[type="text"].error, .has-error input[type="text"] {
 }
 
 .check_block {
-    margin-bottom: 30px;
+    margin-top: 30px;
+    overflow: auto;
 }
 
 .text-danger {
     color: #ff0000;
+}
+
+.item_option_title {
+    font-weight: bold;
 }

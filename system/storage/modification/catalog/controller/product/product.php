@@ -506,6 +506,7 @@ class ControllerProductProduct extends Controller
                         //BOF Related Options
                         'master_option' => $option['master_option'],
                         // EOF Related Options
+                        'show_title' => $option['show_title'],
                         'required' => $option['required']
                     );
                 } //BOF Related Options
@@ -520,6 +521,7 @@ class ControllerProductProduct extends Controller
                         'master_option' => $option['master_option'],
                         'master_option_value' => $option['master_option_value'],
                         // EOF Related Options
+                        'show_title' => $option['show_title'],
                         'required' => $option['required']
                     );
                 }

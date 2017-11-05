@@ -45,8 +45,13 @@
                             <?php foreach ($options as $option) { ?>
 
                             <?php if($option['type']=='select'){ //print_r($option);?>
-                            <div style="margin-top:20px;" class="check_block input-group"
+                            <div class="check_block input-group"
                                  id="input-option<?php echo $option['product_option_id']; ?>">
+                                <?php if($option['show_title']) { ?>
+                                <div class="item_option_title">
+                                    <?php print_R($option['name']); ?>
+                                </div>
+                                <?php } ?>
                                 <select parent-id="<?php echo $option['option_id']; ?>"
                                         name="option[<?php echo $option['product_option_id']; ?>]"
                                         id="input-option<?php echo $option['product_option_id']; ?>"
@@ -78,6 +83,11 @@
                             <?php if($option['type']=='checkbox'){ ?>
                             <div class="check_block input-group"
                                  id="input-option<?php echo $option['product_option_id']; ?>">
+                                <?php if($option['show_title']) { ?>
+                                <div class="item_option_title">
+                                    <?php print_R($option['name']); ?>
+                                </div>
+                                <?php } ?>
                                 <?php foreach ($option['product_option_value'] as $option_value) { //print_r($option_value);?>
 
                                 <input master-id="<?php echo $option['master_option']?>"
@@ -108,6 +118,11 @@
                             <?php if($option['type']=='radio'){ ?>
                             <div class="check_block input-group"
                                  id="input-option<?php echo $option['product_option_id']; ?>">
+                                <?php if($option['show_title']) { ?>
+                                <div class="item_option_title">
+                                    <?php print_R($option['name']); ?>
+                                </div>
+                                <?php } ?>
                                 <?php foreach ($option['product_option_value'] as $option_value) { ?>
 
 
