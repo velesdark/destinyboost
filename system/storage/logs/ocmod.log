@@ -1,0 +1,3763 @@
+2017-10-06 1:15:31 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: fondy_payment
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 11
+
+FILE: catalog/view/theme/default/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 26
+
+FILE: catalog/view/theme/destiny/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 26
+----------------------------------------------------------------
+MOD: OcStore 2.3.x track number
+
+FILE: admin/controller/sale/order.php
+CODE: $data['shipping_method'] = $order_info['shipping_method'];
+LINE: 567
+LINE: 942
+CODE: public function history() {
+LINE: 1545
+
+FILE: admin/model/sale/order.php
+CODE: $order_query->row['order_id'],
+LINE: 96
+
+FILE: catalog/model/checkout/order.php
+CODE: $order_query->row['order_id'],
+LINE: 170
+
+FILE: admin/view/template/sale/order_info.tpl
+CODE: <td><?php echo $text_reward; ?></td>
+LINE: 100
+CODE: <?php echo $footer; ?>
+LINE: 700
+
+FILE: catalog/model/account/order.php
+CODE: $order_query->row['order_id'],
+LINE: 46
+
+FILE: catalog/controller/account/order.php
+CODE: if ($order_info['invoice_no']) {
+LINE: 210
+
+FILE: catalog/view/theme/default/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+
+FILE: catalog/view/theme/destiny/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+----------------------------------------------------------------
+2017-10-06 1:15:35 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: fondy_payment
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 11
+
+FILE: catalog/view/theme/default/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 26
+
+FILE: catalog/view/theme/destiny/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 26
+----------------------------------------------------------------
+MOD: OcStore 2.3.x track number
+
+FILE: admin/controller/sale/order.php
+CODE: $data['shipping_method'] = $order_info['shipping_method'];
+LINE: 567
+LINE: 942
+CODE: public function history() {
+LINE: 1545
+
+FILE: admin/model/sale/order.php
+CODE: $order_query->row['order_id'],
+LINE: 96
+
+FILE: catalog/model/checkout/order.php
+CODE: $order_query->row['order_id'],
+LINE: 170
+
+FILE: admin/view/template/sale/order_info.tpl
+CODE: <td><?php echo $text_reward; ?></td>
+LINE: 100
+CODE: <?php echo $footer; ?>
+LINE: 700
+
+FILE: catalog/model/account/order.php
+CODE: $order_query->row['order_id'],
+LINE: 46
+
+FILE: catalog/controller/account/order.php
+CODE: if ($order_info['invoice_no']) {
+LINE: 210
+
+FILE: catalog/view/theme/default/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+
+FILE: catalog/view/theme/destiny/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+----------------------------------------------------------------
+2017-10-06 5:30:47 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: fondy_payment
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 11
+
+FILE: catalog/view/theme/default/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 26
+
+FILE: catalog/view/theme/destiny/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 26
+----------------------------------------------------------------
+MOD: OcStore 2.3.x track number
+
+FILE: admin/controller/sale/order.php
+CODE: $data['shipping_method'] = $order_info['shipping_method'];
+LINE: 567
+LINE: 942
+CODE: public function history() {
+LINE: 1545
+
+FILE: admin/model/sale/order.php
+CODE: $order_query->row['order_id'],
+LINE: 96
+
+FILE: catalog/model/checkout/order.php
+CODE: $order_query->row['order_id'],
+LINE: 170
+
+FILE: admin/view/template/sale/order_info.tpl
+CODE: <td><?php echo $text_reward; ?></td>
+LINE: 100
+CODE: <?php echo $footer; ?>
+LINE: 700
+
+FILE: catalog/model/account/order.php
+CODE: $order_query->row['order_id'],
+LINE: 46
+
+FILE: catalog/controller/account/order.php
+CODE: if ($order_info['invoice_no']) {
+LINE: 210
+
+FILE: catalog/view/theme/default/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+
+FILE: catalog/view/theme/destiny/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2017-10-06 5:30:51 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: fondy_payment
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 11
+
+FILE: catalog/view/theme/default/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 26
+
+FILE: catalog/view/theme/destiny/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 26
+----------------------------------------------------------------
+MOD: OcStore 2.3.x track number
+
+FILE: admin/controller/sale/order.php
+CODE: $data['shipping_method'] = $order_info['shipping_method'];
+LINE: 567
+LINE: 942
+CODE: public function history() {
+LINE: 1545
+
+FILE: admin/model/sale/order.php
+CODE: $order_query->row['order_id'],
+LINE: 96
+
+FILE: catalog/model/checkout/order.php
+CODE: $order_query->row['order_id'],
+LINE: 170
+
+FILE: admin/view/template/sale/order_info.tpl
+CODE: <td><?php echo $text_reward; ?></td>
+LINE: 100
+CODE: <?php echo $footer; ?>
+LINE: 700
+
+FILE: catalog/model/account/order.php
+CODE: $order_query->row['order_id'],
+LINE: 46
+
+FILE: catalog/controller/account/order.php
+CODE: if ($order_info['invoice_no']) {
+LINE: 210
+
+FILE: catalog/view/theme/default/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+
+FILE: catalog/view/theme/destiny/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+2017-10-06 12:50:01 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: fondy_payment
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 11
+
+FILE: catalog/view/theme/default/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 26
+
+FILE: catalog/view/theme/destiny/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 26
+----------------------------------------------------------------
+MOD: OcStore 2.3.x track number
+
+FILE: admin/controller/sale/order.php
+CODE: $data['shipping_method'] = $order_info['shipping_method'];
+LINE: 567
+LINE: 942
+CODE: public function history() {
+LINE: 1545
+
+FILE: admin/model/sale/order.php
+CODE: $order_query->row['order_id'],
+LINE: 96
+
+FILE: catalog/model/checkout/order.php
+CODE: $order_query->row['order_id'],
+LINE: 170
+
+FILE: admin/view/template/sale/order_info.tpl
+CODE: <td><?php echo $text_reward; ?></td>
+LINE: 100
+CODE: <?php echo $footer; ?>
+LINE: 700
+
+FILE: catalog/model/account/order.php
+CODE: $order_query->row['order_id'],
+LINE: 46
+
+FILE: catalog/controller/account/order.php
+CODE: if ($order_info['invoice_no']) {
+LINE: 210
+
+FILE: catalog/view/theme/default/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+
+FILE: catalog/view/theme/destiny/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Создатель форм
+
+FILE: admin/controller/common/header.php
+CODE: $data['alerts'] = $customer_total + $product_total + $review_total + $return_total + $affiliate_total;
+LINE: 114
+CODE: $this->load->language('common/header');
+LINE: 24
+
+FILE: admin/view/template/common/header.tpl
+CODE: <li class="dropdown-header"><?php echo $text_order; ?></li>
+LINE: 51
+----------------------------------------------------------------
+MOD: Обновление цены при выборе опций OC2 (без AJAX)
+
+FILE: admin/view/template/setting/setting.tpl
+CODE: <label class="col-sm-2 control-label"><span data-toggle="tooltip" title="<?php echo $help_currency_auto; ?>"><?php echo $entry_currency_auto; ?></span></label>
+LINE: 391
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_currency'])) {
+LINE: 668
+
+FILE: catalog/controller/product/category.php
+CODE: $price = $this->currency->format(
+LINE: 208
+CODE: $special = $this->currency->format(
+LINE: 219
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>
+LINE: 177
+LINE: 197
+LINE: 218
+
+FILE: catalog/view/theme/destiny/template/product/product.tpl
+CODE: <?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="<?php echo $option_value['product_option_value_id']; ?>"
+LINE: 175
+LINE: 191
+LINE: 212
+CODE: <?php echo $footer; ?>
+LINE: 865
+CODE: value="<?php echo $option_value['product_option_value_id']; ?>"
+LINE: 40
+LINE: 52
+LINE: 67
+LINE: 84
+CODE: <?php echo $footer; ?>
+LINE: 581
+
+FILE: catalog/model/catalog/product.php
+CODE: 'weight'                  => $product_option_value['weight'],
+LINE: 361
+
+FILE: catalog/controller/product/product.php
+CODE: $data['options'] = array();
+LINE: 427
+CODE: $product_option_value_data[] = array(
+LINE: 444
+
+FILE: system/library/cart/cart.php
+CODE: if ($product_discount_query->num_rows) {
+LINE: 194
+CODE: if ($product_special_query->num_rows) {
+LINE: 217
+----------------------------------------------------------------
+2017-10-06 12:50:04 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: fondy_payment
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 11
+
+FILE: catalog/view/theme/default/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 26
+
+FILE: catalog/view/theme/destiny/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 26
+----------------------------------------------------------------
+MOD: OcStore 2.3.x track number
+
+FILE: admin/controller/sale/order.php
+CODE: $data['shipping_method'] = $order_info['shipping_method'];
+LINE: 567
+LINE: 942
+CODE: public function history() {
+LINE: 1545
+
+FILE: admin/model/sale/order.php
+CODE: $order_query->row['order_id'],
+LINE: 96
+
+FILE: catalog/model/checkout/order.php
+CODE: $order_query->row['order_id'],
+LINE: 170
+
+FILE: admin/view/template/sale/order_info.tpl
+CODE: <td><?php echo $text_reward; ?></td>
+LINE: 100
+CODE: <?php echo $footer; ?>
+LINE: 700
+
+FILE: catalog/model/account/order.php
+CODE: $order_query->row['order_id'],
+LINE: 46
+
+FILE: catalog/controller/account/order.php
+CODE: if ($order_info['invoice_no']) {
+LINE: 210
+
+FILE: catalog/view/theme/default/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+
+FILE: catalog/view/theme/destiny/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Создатель форм
+
+FILE: admin/controller/common/header.php
+CODE: $data['alerts'] = $customer_total + $product_total + $review_total + $return_total + $affiliate_total;
+LINE: 114
+CODE: $this->load->language('common/header');
+LINE: 24
+
+FILE: admin/view/template/common/header.tpl
+CODE: <li class="dropdown-header"><?php echo $text_order; ?></li>
+LINE: 51
+----------------------------------------------------------------
+MOD: Обновление цены при выборе опций OC2 (без AJAX)
+
+FILE: admin/view/template/setting/setting.tpl
+CODE: <label class="col-sm-2 control-label"><span data-toggle="tooltip" title="<?php echo $help_currency_auto; ?>"><?php echo $entry_currency_auto; ?></span></label>
+LINE: 391
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_currency'])) {
+LINE: 668
+
+FILE: catalog/controller/product/category.php
+CODE: $price = $this->currency->format(
+LINE: 208
+CODE: $special = $this->currency->format(
+LINE: 219
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>
+LINE: 177
+LINE: 197
+LINE: 218
+
+FILE: catalog/view/theme/destiny/template/product/product.tpl
+CODE: <?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="<?php echo $option_value['product_option_value_id']; ?>"
+LINE: 175
+LINE: 191
+LINE: 212
+CODE: <?php echo $footer; ?>
+LINE: 865
+CODE: value="<?php echo $option_value['product_option_value_id']; ?>"
+LINE: 40
+LINE: 52
+LINE: 67
+LINE: 84
+CODE: <?php echo $footer; ?>
+LINE: 581
+
+FILE: catalog/model/catalog/product.php
+CODE: 'weight'                  => $product_option_value['weight'],
+LINE: 361
+
+FILE: catalog/controller/product/product.php
+CODE: $data['options'] = array();
+LINE: 427
+CODE: $product_option_value_data[] = array(
+LINE: 444
+
+FILE: system/library/cart/cart.php
+CODE: if ($product_discount_query->num_rows) {
+LINE: 194
+CODE: if ($product_special_query->num_rows) {
+LINE: 217
+----------------------------------------------------------------
+2017-10-06 13:03:09 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: fondy_payment
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/destiny/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 26
+----------------------------------------------------------------
+MOD: OcStore 2.3.x track number
+
+FILE: admin/controller/sale/order.php
+CODE: $data['shipping_method'] = $order_info['shipping_method'];
+LINE: 567
+LINE: 942
+CODE: public function history() {
+LINE: 1545
+
+FILE: admin/model/sale/order.php
+CODE: $order_query->row['order_id'],
+LINE: 96
+
+FILE: catalog/model/checkout/order.php
+CODE: $order_query->row['order_id'],
+LINE: 170
+
+FILE: admin/view/template/sale/order_info.tpl
+CODE: <td><?php echo $text_reward; ?></td>
+LINE: 100
+CODE: <?php echo $footer; ?>
+LINE: 700
+
+FILE: catalog/model/account/order.php
+CODE: $order_query->row['order_id'],
+LINE: 46
+
+FILE: catalog/controller/account/order.php
+CODE: if ($order_info['invoice_no']) {
+LINE: 210
+
+FILE: catalog/view/theme/default/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+
+FILE: catalog/view/theme/destiny/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Создатель форм
+
+FILE: admin/controller/common/header.php
+CODE: $data['alerts'] = $customer_total + $product_total + $review_total + $return_total + $affiliate_total;
+LINE: 114
+CODE: $this->load->language('common/header');
+LINE: 24
+
+FILE: admin/view/template/common/header.tpl
+CODE: <li class="dropdown-header"><?php echo $text_order; ?></li>
+LINE: 51
+----------------------------------------------------------------
+MOD: Обновление цены при выборе опций OC2 (без AJAX)
+
+FILE: admin/view/template/setting/setting.tpl
+CODE: <label class="col-sm-2 control-label"><span data-toggle="tooltip" title="<?php echo $help_currency_auto; ?>"><?php echo $entry_currency_auto; ?></span></label>
+LINE: 391
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_currency'])) {
+LINE: 668
+
+FILE: catalog/controller/product/category.php
+CODE: $price = $this->currency->format(
+LINE: 208
+CODE: $special = $this->currency->format(
+LINE: 219
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>
+LINE: 177
+LINE: 197
+LINE: 218
+
+FILE: catalog/view/theme/destiny/template/product/product.tpl
+CODE: <?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="<?php echo $option_value['product_option_value_id']; ?>"
+LINE: 175
+LINE: 191
+LINE: 212
+CODE: <?php echo $footer; ?>
+LINE: 865
+CODE: value="<?php echo $option_value['product_option_value_id']; ?>"
+LINE: 40
+LINE: 52
+LINE: 67
+LINE: 84
+CODE: <?php echo $footer; ?>
+LINE: 581
+
+FILE: catalog/model/catalog/product.php
+CODE: 'weight'                  => $product_option_value['weight'],
+LINE: 361
+
+FILE: catalog/controller/product/product.php
+CODE: $data['options'] = array();
+LINE: 427
+CODE: $product_option_value_data[] = array(
+LINE: 444
+
+FILE: system/library/cart/cart.php
+CODE: if ($product_discount_query->num_rows) {
+LINE: 194
+CODE: if ($product_special_query->num_rows) {
+LINE: 217
+----------------------------------------------------------------
+2017-10-06 13:08:33 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: fondy_payment
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 11
+
+FILE: catalog/view/theme/default/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/destiny/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 26
+----------------------------------------------------------------
+MOD: OcStore 2.3.x track number
+
+FILE: admin/controller/sale/order.php
+CODE: $data['shipping_method'] = $order_info['shipping_method'];
+LINE: 567
+LINE: 942
+CODE: public function history() {
+LINE: 1545
+
+FILE: admin/model/sale/order.php
+CODE: $order_query->row['order_id'],
+LINE: 96
+
+FILE: catalog/model/checkout/order.php
+CODE: $order_query->row['order_id'],
+LINE: 170
+
+FILE: admin/view/template/sale/order_info.tpl
+CODE: <td><?php echo $text_reward; ?></td>
+LINE: 100
+CODE: <?php echo $footer; ?>
+LINE: 700
+
+FILE: catalog/model/account/order.php
+CODE: $order_query->row['order_id'],
+LINE: 46
+
+FILE: catalog/controller/account/order.php
+CODE: if ($order_info['invoice_no']) {
+LINE: 210
+
+FILE: catalog/view/theme/default/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+
+FILE: catalog/view/theme/destiny/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Создатель форм
+
+FILE: admin/controller/common/header.php
+CODE: $data['alerts'] = $customer_total + $product_total + $review_total + $return_total + $affiliate_total;
+LINE: 114
+CODE: $this->load->language('common/header');
+LINE: 24
+
+FILE: admin/view/template/common/header.tpl
+CODE: <li class="dropdown-header"><?php echo $text_order; ?></li>
+LINE: 51
+----------------------------------------------------------------
+MOD: Обновление цены при выборе опций OC2 (без AJAX)
+
+FILE: admin/view/template/setting/setting.tpl
+CODE: <label class="col-sm-2 control-label"><span data-toggle="tooltip" title="<?php echo $help_currency_auto; ?>"><?php echo $entry_currency_auto; ?></span></label>
+LINE: 391
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_currency'])) {
+LINE: 668
+
+FILE: catalog/controller/product/category.php
+CODE: $price = $this->currency->format(
+LINE: 208
+CODE: $special = $this->currency->format(
+LINE: 219
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>
+LINE: 177
+LINE: 197
+LINE: 218
+
+FILE: catalog/view/theme/destiny/template/product/product.tpl
+CODE: <?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="<?php echo $option_value['product_option_value_id']; ?>"
+LINE: 175
+LINE: 191
+LINE: 212
+CODE: <?php echo $footer; ?>
+LINE: 865
+CODE: value="<?php echo $option_value['product_option_value_id']; ?>"
+LINE: 40
+LINE: 52
+LINE: 67
+LINE: 84
+CODE: <?php echo $footer; ?>
+LINE: 581
+
+FILE: catalog/model/catalog/product.php
+CODE: 'weight'                  => $product_option_value['weight'],
+LINE: 361
+
+FILE: catalog/controller/product/product.php
+CODE: $data['options'] = array();
+LINE: 427
+CODE: $product_option_value_data[] = array(
+LINE: 444
+
+FILE: system/library/cart/cart.php
+CODE: if ($product_discount_query->num_rows) {
+LINE: 194
+CODE: if ($product_special_query->num_rows) {
+LINE: 217
+----------------------------------------------------------------
+MOD: One page checkout
+
+FILE: catalog/controller/common/cart.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 140
+
+FILE: catalog/controller/common/header.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 86
+
+FILE: catalog/controller/checkout/cart.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 235
+----------------------------------------------------------------
+2017-10-20 10:05:06 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: fondy_payment
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 11
+
+FILE: catalog/view/theme/default/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/destiny/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 26
+----------------------------------------------------------------
+MOD: OcStore 2.3.x track number
+
+FILE: admin/controller/sale/order.php
+CODE: $data['shipping_method'] = $order_info['shipping_method'];
+LINE: 567
+LINE: 942
+CODE: public function history() {
+LINE: 1545
+
+FILE: admin/model/sale/order.php
+CODE: $order_query->row['order_id'],
+LINE: 96
+
+FILE: catalog/model/checkout/order.php
+CODE: $order_query->row['order_id'],
+LINE: 170
+
+FILE: admin/view/template/sale/order_info.tpl
+CODE: <td><?php echo $text_reward; ?></td>
+LINE: 100
+CODE: <?php echo $footer; ?>
+LINE: 700
+
+FILE: catalog/model/account/order.php
+CODE: $order_query->row['order_id'],
+LINE: 46
+
+FILE: catalog/controller/account/order.php
+CODE: if ($order_info['invoice_no']) {
+LINE: 210
+
+FILE: catalog/view/theme/default/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+
+FILE: catalog/view/theme/destiny/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Создатель форм
+
+FILE: admin/controller/common/header.php
+CODE: $data['alerts'] = $customer_total + $product_total + $review_total + $return_total + $affiliate_total;
+LINE: 114
+CODE: $this->load->language('common/header');
+LINE: 24
+
+FILE: admin/view/template/common/header.tpl
+CODE: <li class="dropdown-header"><?php echo $text_order; ?></li>
+LINE: 51
+----------------------------------------------------------------
+MOD: Обновление цены при выборе опций OC2 (без AJAX)
+
+FILE: admin/view/template/setting/setting.tpl
+CODE: <label class="col-sm-2 control-label"><span data-toggle="tooltip" title="<?php echo $help_currency_auto; ?>"><?php echo $entry_currency_auto; ?></span></label>
+LINE: 391
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_currency'])) {
+LINE: 668
+
+FILE: catalog/controller/product/category.php
+CODE: $price = $this->currency->format(
+LINE: 208
+CODE: $special = $this->currency->format(
+LINE: 219
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>
+LINE: 177
+LINE: 197
+LINE: 218
+
+FILE: catalog/view/theme/destiny/template/product/product.tpl
+CODE: <?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="<?php echo $option_value['product_option_value_id']; ?>"
+LINE: 175
+LINE: 191
+LINE: 212
+CODE: <?php echo $footer; ?>
+LINE: 865
+CODE: value="<?php echo $option_value['product_option_value_id']; ?>"
+LINE: 40
+LINE: 52
+LINE: 67
+LINE: 84
+CODE: <?php echo $footer; ?>
+LINE: 581
+
+FILE: catalog/model/catalog/product.php
+CODE: 'weight'                  => $product_option_value['weight'],
+LINE: 361
+
+FILE: catalog/controller/product/product.php
+CODE: $data['options'] = array();
+LINE: 427
+CODE: $product_option_value_data[] = array(
+LINE: 444
+
+FILE: system/library/cart/cart.php
+CODE: if ($product_discount_query->num_rows) {
+LINE: 194
+CODE: if ($product_special_query->num_rows) {
+LINE: 217
+----------------------------------------------------------------
+MOD: One page checkout
+
+FILE: catalog/controller/common/cart.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 140
+
+FILE: catalog/controller/common/header.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 86
+
+FILE: catalog/controller/checkout/cart.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 235
+----------------------------------------------------------------
+MOD: TMD Header Module
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: // Text
+LINE: 6
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: // Text
+LINE: 6
+
+FILE: admin/controller/common/column_left.php
+CODE: // System
+LINE: 432
+CODE: foreach ($categories as $category) {
+LINE: 102
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <?php if ($categories) { ?>
+LINE: 99
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 107
+CODE: <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+LINE: 163
+
+FILE: catalog/view/theme/destiny/template/common/header.tpl
+CODE: <?php if ($categories) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+2017-10-20 11:32:53 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: fondy_payment
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 11
+
+FILE: catalog/view/theme/default/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/destiny/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 26
+----------------------------------------------------------------
+MOD: OcStore 2.3.x track number
+
+FILE: admin/controller/sale/order.php
+CODE: $data['shipping_method'] = $order_info['shipping_method'];
+LINE: 567
+LINE: 942
+CODE: public function history() {
+LINE: 1545
+
+FILE: admin/model/sale/order.php
+CODE: $order_query->row['order_id'],
+LINE: 96
+
+FILE: catalog/model/checkout/order.php
+CODE: $order_query->row['order_id'],
+LINE: 170
+
+FILE: admin/view/template/sale/order_info.tpl
+CODE: <td><?php echo $text_reward; ?></td>
+LINE: 100
+CODE: <?php echo $footer; ?>
+LINE: 700
+
+FILE: catalog/model/account/order.php
+CODE: $order_query->row['order_id'],
+LINE: 46
+
+FILE: catalog/controller/account/order.php
+CODE: if ($order_info['invoice_no']) {
+LINE: 210
+
+FILE: catalog/view/theme/default/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+
+FILE: catalog/view/theme/destiny/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Создатель форм
+
+FILE: admin/controller/common/header.php
+CODE: $data['alerts'] = $customer_total + $product_total + $review_total + $return_total + $affiliate_total;
+LINE: 114
+CODE: $this->load->language('common/header');
+LINE: 24
+
+FILE: admin/view/template/common/header.tpl
+CODE: <li class="dropdown-header"><?php echo $text_order; ?></li>
+LINE: 51
+----------------------------------------------------------------
+MOD: Обновление цены при выборе опций OC2 (без AJAX)
+
+FILE: admin/view/template/setting/setting.tpl
+CODE: <label class="col-sm-2 control-label"><span data-toggle="tooltip" title="<?php echo $help_currency_auto; ?>"><?php echo $entry_currency_auto; ?></span></label>
+LINE: 391
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_currency'])) {
+LINE: 668
+
+FILE: catalog/controller/product/category.php
+CODE: $price = $this->currency->format(
+LINE: 208
+CODE: $special = $this->currency->format(
+LINE: 219
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>
+LINE: 177
+LINE: 197
+LINE: 218
+
+FILE: catalog/view/theme/destiny/template/product/product.tpl
+CODE: <?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="<?php echo $option_value['product_option_value_id']; ?>"
+LINE: 175
+LINE: 191
+LINE: 212
+CODE: <?php echo $footer; ?>
+LINE: 865
+CODE: value="<?php echo $option_value['product_option_value_id']; ?>"
+LINE: 40
+LINE: 52
+LINE: 67
+LINE: 84
+CODE: <?php echo $footer; ?>
+LINE: 581
+
+FILE: catalog/model/catalog/product.php
+CODE: 'weight'                  => $product_option_value['weight'],
+LINE: 361
+
+FILE: catalog/controller/product/product.php
+CODE: $data['options'] = array();
+LINE: 427
+CODE: $product_option_value_data[] = array(
+LINE: 444
+
+FILE: system/library/cart/cart.php
+CODE: if ($product_discount_query->num_rows) {
+LINE: 194
+CODE: if ($product_special_query->num_rows) {
+LINE: 217
+----------------------------------------------------------------
+MOD: One page checkout
+
+FILE: catalog/controller/common/cart.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 140
+
+FILE: catalog/controller/common/header.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 86
+
+FILE: catalog/controller/checkout/cart.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 235
+----------------------------------------------------------------
+MOD: TMD Header Module
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: // Text
+LINE: 6
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: // Text
+LINE: 6
+
+FILE: admin/controller/common/column_left.php
+CODE: // System
+LINE: 432
+CODE: foreach ($categories as $category) {
+LINE: 102
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <?php if ($categories) { ?>
+LINE: 99
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 107
+CODE: <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+LINE: 163
+
+FILE: catalog/view/theme/destiny/template/common/header.tpl
+CODE: <?php if ($categories) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+2017-10-20 11:32:56 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: fondy_payment
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 11
+
+FILE: catalog/view/theme/default/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/destiny/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 26
+----------------------------------------------------------------
+MOD: OcStore 2.3.x track number
+
+FILE: admin/controller/sale/order.php
+CODE: $data['shipping_method'] = $order_info['shipping_method'];
+LINE: 567
+LINE: 942
+CODE: public function history() {
+LINE: 1545
+
+FILE: admin/model/sale/order.php
+CODE: $order_query->row['order_id'],
+LINE: 96
+
+FILE: catalog/model/checkout/order.php
+CODE: $order_query->row['order_id'],
+LINE: 170
+
+FILE: admin/view/template/sale/order_info.tpl
+CODE: <td><?php echo $text_reward; ?></td>
+LINE: 100
+CODE: <?php echo $footer; ?>
+LINE: 700
+
+FILE: catalog/model/account/order.php
+CODE: $order_query->row['order_id'],
+LINE: 46
+
+FILE: catalog/controller/account/order.php
+CODE: if ($order_info['invoice_no']) {
+LINE: 210
+
+FILE: catalog/view/theme/default/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+
+FILE: catalog/view/theme/destiny/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Создатель форм
+
+FILE: admin/controller/common/header.php
+CODE: $data['alerts'] = $customer_total + $product_total + $review_total + $return_total + $affiliate_total;
+LINE: 114
+CODE: $this->load->language('common/header');
+LINE: 24
+
+FILE: admin/view/template/common/header.tpl
+CODE: <li class="dropdown-header"><?php echo $text_order; ?></li>
+LINE: 51
+----------------------------------------------------------------
+MOD: Обновление цены при выборе опций OC2 (без AJAX)
+
+FILE: admin/view/template/setting/setting.tpl
+CODE: <label class="col-sm-2 control-label"><span data-toggle="tooltip" title="<?php echo $help_currency_auto; ?>"><?php echo $entry_currency_auto; ?></span></label>
+LINE: 391
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_currency'])) {
+LINE: 668
+
+FILE: catalog/controller/product/category.php
+CODE: $price = $this->currency->format(
+LINE: 208
+CODE: $special = $this->currency->format(
+LINE: 219
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>
+LINE: 177
+LINE: 197
+LINE: 218
+
+FILE: catalog/view/theme/destiny/template/product/product.tpl
+CODE: <?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="<?php echo $option_value['product_option_value_id']; ?>"
+LINE: 175
+LINE: 191
+LINE: 212
+CODE: <?php echo $footer; ?>
+LINE: 865
+CODE: value="<?php echo $option_value['product_option_value_id']; ?>"
+LINE: 40
+LINE: 52
+LINE: 67
+LINE: 84
+CODE: <?php echo $footer; ?>
+LINE: 581
+
+FILE: catalog/model/catalog/product.php
+CODE: 'weight'                  => $product_option_value['weight'],
+LINE: 361
+
+FILE: catalog/controller/product/product.php
+CODE: $data['options'] = array();
+LINE: 427
+CODE: $product_option_value_data[] = array(
+LINE: 444
+
+FILE: system/library/cart/cart.php
+CODE: if ($product_discount_query->num_rows) {
+LINE: 194
+CODE: if ($product_special_query->num_rows) {
+LINE: 217
+----------------------------------------------------------------
+MOD: One page checkout
+
+FILE: catalog/controller/common/cart.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 140
+
+FILE: catalog/controller/common/header.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 86
+
+FILE: catalog/controller/checkout/cart.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 235
+----------------------------------------------------------------
+MOD: TMD Header Module
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: // Text
+LINE: 6
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: // Text
+LINE: 6
+
+FILE: admin/controller/common/column_left.php
+CODE: // System
+LINE: 432
+CODE: foreach ($categories as $category) {
+LINE: 102
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <?php if ($categories) { ?>
+LINE: 99
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 107
+CODE: <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+LINE: 163
+
+FILE: catalog/view/theme/destiny/template/common/header.tpl
+CODE: <?php if ($categories) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+2017-10-20 11:37:45 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: fondy_payment
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 11
+
+FILE: catalog/view/theme/default/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/destiny/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 26
+----------------------------------------------------------------
+MOD: OcStore 2.3.x track number
+
+FILE: admin/controller/sale/order.php
+CODE: $data['shipping_method'] = $order_info['shipping_method'];
+LINE: 567
+LINE: 942
+CODE: public function history() {
+LINE: 1545
+
+FILE: admin/model/sale/order.php
+CODE: $order_query->row['order_id'],
+LINE: 96
+
+FILE: catalog/model/checkout/order.php
+CODE: $order_query->row['order_id'],
+LINE: 170
+
+FILE: admin/view/template/sale/order_info.tpl
+CODE: <td><?php echo $text_reward; ?></td>
+LINE: 100
+CODE: <?php echo $footer; ?>
+LINE: 700
+
+FILE: catalog/model/account/order.php
+CODE: $order_query->row['order_id'],
+LINE: 46
+
+FILE: catalog/controller/account/order.php
+CODE: if ($order_info['invoice_no']) {
+LINE: 210
+
+FILE: catalog/view/theme/default/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+
+FILE: catalog/view/theme/destiny/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Создатель форм
+
+FILE: admin/controller/common/header.php
+CODE: $data['alerts'] = $customer_total + $product_total + $review_total + $return_total + $affiliate_total;
+LINE: 114
+CODE: $this->load->language('common/header');
+LINE: 24
+
+FILE: admin/view/template/common/header.tpl
+CODE: <li class="dropdown-header"><?php echo $text_order; ?></li>
+LINE: 51
+----------------------------------------------------------------
+MOD: Обновление цены при выборе опций OC2 (без AJAX)
+
+FILE: admin/view/template/setting/setting.tpl
+CODE: <label class="col-sm-2 control-label"><span data-toggle="tooltip" title="<?php echo $help_currency_auto; ?>"><?php echo $entry_currency_auto; ?></span></label>
+LINE: 391
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_currency'])) {
+LINE: 668
+
+FILE: catalog/controller/product/category.php
+CODE: $price = $this->currency->format(
+LINE: 208
+CODE: $special = $this->currency->format(
+LINE: 219
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>
+LINE: 177
+LINE: 197
+LINE: 218
+
+FILE: catalog/view/theme/destiny/template/product/product.tpl
+CODE: <?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="<?php echo $option_value['product_option_value_id']; ?>"
+LINE: 175
+LINE: 191
+LINE: 212
+CODE: <?php echo $footer; ?>
+LINE: 865
+CODE: value="<?php echo $option_value['product_option_value_id']; ?>"
+LINE: 40
+LINE: 52
+LINE: 67
+LINE: 84
+CODE: <?php echo $footer; ?>
+LINE: 581
+
+FILE: catalog/model/catalog/product.php
+CODE: 'weight'                  => $product_option_value['weight'],
+LINE: 361
+
+FILE: catalog/controller/product/product.php
+CODE: $data['options'] = array();
+LINE: 427
+CODE: $product_option_value_data[] = array(
+LINE: 444
+
+FILE: system/library/cart/cart.php
+CODE: if ($product_discount_query->num_rows) {
+LINE: 194
+CODE: if ($product_special_query->num_rows) {
+LINE: 217
+----------------------------------------------------------------
+MOD: One page checkout
+
+FILE: catalog/controller/common/cart.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 140
+
+FILE: catalog/controller/common/header.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 86
+
+FILE: catalog/controller/checkout/cart.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 235
+----------------------------------------------------------------
+MOD: TMD Header Module
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: // Text
+LINE: 6
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: // Text
+LINE: 6
+
+FILE: admin/controller/common/column_left.php
+CODE: // System
+LINE: 432
+CODE: foreach ($categories as $category) {
+LINE: 102
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <?php if ($categories) { ?>
+LINE: 99
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 107
+CODE: <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+LINE: 163
+
+FILE: catalog/view/theme/destiny/template/common/header.tpl
+CODE: <?php if ($categories) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: 1 simple url rewrite
+
+FILE: catalog/controller/startup/startup.php
+CODE: new Url
+LINE: 36
+CODE: newUrl
+NOT FOUND - OPERATION SKIPPED!
+----------------------------------------------------------------
+2017-10-20 11:37:48 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: fondy_payment
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 11
+
+FILE: catalog/view/theme/default/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/destiny/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 26
+----------------------------------------------------------------
+MOD: OcStore 2.3.x track number
+
+FILE: admin/controller/sale/order.php
+CODE: $data['shipping_method'] = $order_info['shipping_method'];
+LINE: 567
+LINE: 942
+CODE: public function history() {
+LINE: 1545
+
+FILE: admin/model/sale/order.php
+CODE: $order_query->row['order_id'],
+LINE: 96
+
+FILE: catalog/model/checkout/order.php
+CODE: $order_query->row['order_id'],
+LINE: 170
+
+FILE: admin/view/template/sale/order_info.tpl
+CODE: <td><?php echo $text_reward; ?></td>
+LINE: 100
+CODE: <?php echo $footer; ?>
+LINE: 700
+
+FILE: catalog/model/account/order.php
+CODE: $order_query->row['order_id'],
+LINE: 46
+
+FILE: catalog/controller/account/order.php
+CODE: if ($order_info['invoice_no']) {
+LINE: 210
+
+FILE: catalog/view/theme/default/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+
+FILE: catalog/view/theme/destiny/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Создатель форм
+
+FILE: admin/controller/common/header.php
+CODE: $data['alerts'] = $customer_total + $product_total + $review_total + $return_total + $affiliate_total;
+LINE: 114
+CODE: $this->load->language('common/header');
+LINE: 24
+
+FILE: admin/view/template/common/header.tpl
+CODE: <li class="dropdown-header"><?php echo $text_order; ?></li>
+LINE: 51
+----------------------------------------------------------------
+MOD: Обновление цены при выборе опций OC2 (без AJAX)
+
+FILE: admin/view/template/setting/setting.tpl
+CODE: <label class="col-sm-2 control-label"><span data-toggle="tooltip" title="<?php echo $help_currency_auto; ?>"><?php echo $entry_currency_auto; ?></span></label>
+LINE: 391
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_currency'])) {
+LINE: 668
+
+FILE: catalog/controller/product/category.php
+CODE: $price = $this->currency->format(
+LINE: 208
+CODE: $special = $this->currency->format(
+LINE: 219
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>
+LINE: 177
+LINE: 197
+LINE: 218
+
+FILE: catalog/view/theme/destiny/template/product/product.tpl
+CODE: <?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="<?php echo $option_value['product_option_value_id']; ?>"
+LINE: 175
+LINE: 191
+LINE: 212
+CODE: <?php echo $footer; ?>
+LINE: 865
+CODE: value="<?php echo $option_value['product_option_value_id']; ?>"
+LINE: 40
+LINE: 52
+LINE: 67
+LINE: 84
+CODE: <?php echo $footer; ?>
+LINE: 581
+
+FILE: catalog/model/catalog/product.php
+CODE: 'weight'                  => $product_option_value['weight'],
+LINE: 361
+
+FILE: catalog/controller/product/product.php
+CODE: $data['options'] = array();
+LINE: 427
+CODE: $product_option_value_data[] = array(
+LINE: 444
+
+FILE: system/library/cart/cart.php
+CODE: if ($product_discount_query->num_rows) {
+LINE: 194
+CODE: if ($product_special_query->num_rows) {
+LINE: 217
+----------------------------------------------------------------
+MOD: One page checkout
+
+FILE: catalog/controller/common/cart.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 140
+
+FILE: catalog/controller/common/header.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 86
+
+FILE: catalog/controller/checkout/cart.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 235
+----------------------------------------------------------------
+MOD: TMD Header Module
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: // Text
+LINE: 6
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: // Text
+LINE: 6
+
+FILE: admin/controller/common/column_left.php
+CODE: // System
+LINE: 432
+CODE: foreach ($categories as $category) {
+LINE: 102
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <?php if ($categories) { ?>
+LINE: 99
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 107
+CODE: <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+LINE: 163
+
+FILE: catalog/view/theme/destiny/template/common/header.tpl
+CODE: <?php if ($categories) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: 1 simple url rewrite
+
+FILE: catalog/controller/startup/startup.php
+CODE: new Url
+LINE: 36
+CODE: newUrl
+NOT FOUND - OPERATION SKIPPED!
+----------------------------------------------------------------
+2017-10-20 13:57:02 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: fondy_payment
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 11
+
+FILE: catalog/view/theme/default/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/destiny/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 31
+----------------------------------------------------------------
+MOD: OcStore 2.3.x track number
+
+FILE: admin/controller/sale/order.php
+CODE: $data['shipping_method'] = $order_info['shipping_method'];
+LINE: 567
+LINE: 942
+CODE: public function history() {
+LINE: 1545
+
+FILE: admin/model/sale/order.php
+CODE: $order_query->row['order_id'],
+LINE: 96
+
+FILE: catalog/model/checkout/order.php
+CODE: $order_query->row['order_id'],
+LINE: 170
+
+FILE: admin/view/template/sale/order_info.tpl
+CODE: <td><?php echo $text_reward; ?></td>
+LINE: 100
+CODE: <?php echo $footer; ?>
+LINE: 700
+
+FILE: catalog/model/account/order.php
+CODE: $order_query->row['order_id'],
+LINE: 46
+
+FILE: catalog/controller/account/order.php
+CODE: if ($order_info['invoice_no']) {
+LINE: 210
+
+FILE: catalog/view/theme/default/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+
+FILE: catalog/view/theme/destiny/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Создатель форм
+
+FILE: admin/controller/common/header.php
+CODE: $data['alerts'] = $customer_total + $product_total + $review_total + $return_total + $affiliate_total;
+LINE: 114
+CODE: $this->load->language('common/header');
+LINE: 24
+
+FILE: admin/view/template/common/header.tpl
+CODE: <li class="dropdown-header"><?php echo $text_order; ?></li>
+LINE: 51
+----------------------------------------------------------------
+MOD: Обновление цены при выборе опций OC2 (без AJAX)
+
+FILE: admin/view/template/setting/setting.tpl
+CODE: <label class="col-sm-2 control-label"><span data-toggle="tooltip" title="<?php echo $help_currency_auto; ?>"><?php echo $entry_currency_auto; ?></span></label>
+LINE: 391
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_currency'])) {
+LINE: 668
+
+FILE: catalog/controller/product/category.php
+CODE: $price = $this->currency->format(
+LINE: 208
+CODE: $special = $this->currency->format(
+LINE: 219
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>
+LINE: 177
+LINE: 197
+LINE: 218
+
+FILE: catalog/view/theme/destiny/template/product/product.tpl
+CODE: <?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="<?php echo $option_value['product_option_value_id']; ?>"
+LINE: 175
+LINE: 191
+LINE: 212
+CODE: <?php echo $footer; ?>
+LINE: 865
+CODE: value="<?php echo $option_value['product_option_value_id']; ?>"
+LINE: 40
+LINE: 52
+LINE: 67
+LINE: 84
+CODE: <?php echo $footer; ?>
+LINE: 581
+
+FILE: catalog/model/catalog/product.php
+CODE: 'weight'                  => $product_option_value['weight'],
+LINE: 361
+
+FILE: catalog/controller/product/product.php
+CODE: $data['options'] = array();
+LINE: 427
+CODE: $product_option_value_data[] = array(
+LINE: 444
+
+FILE: system/library/cart/cart.php
+CODE: if ($product_discount_query->num_rows) {
+LINE: 194
+CODE: if ($product_special_query->num_rows) {
+LINE: 217
+----------------------------------------------------------------
+MOD: One page checkout
+
+FILE: catalog/controller/common/cart.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 140
+
+FILE: catalog/controller/common/header.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 86
+
+FILE: catalog/controller/checkout/cart.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 235
+----------------------------------------------------------------
+MOD: TMD Header Module
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: // Text
+LINE: 6
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: // Text
+LINE: 6
+
+FILE: admin/controller/common/column_left.php
+CODE: // System
+LINE: 432
+CODE: foreach ($categories as $category) {
+LINE: 102
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <?php if ($categories) { ?>
+LINE: 99
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 107
+CODE: <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+LINE: 163
+
+FILE: catalog/view/theme/destiny/template/common/header.tpl
+CODE: <?php if ($categories) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: 1 simple url rewrite
+
+FILE: catalog/controller/startup/startup.php
+CODE: new Url
+LINE: 36
+CODE: newUrl
+NOT FOUND - OPERATION SKIPPED!
+----------------------------------------------------------------
+2017-10-20 14:01:36 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: fondy_payment
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 11
+
+FILE: catalog/view/theme/default/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/destiny/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 31
+----------------------------------------------------------------
+MOD: OcStore 2.3.x track number
+
+FILE: admin/controller/sale/order.php
+CODE: $data['shipping_method'] = $order_info['shipping_method'];
+LINE: 567
+LINE: 942
+CODE: public function history() {
+LINE: 1545
+
+FILE: admin/model/sale/order.php
+CODE: $order_query->row['order_id'],
+LINE: 96
+
+FILE: catalog/model/checkout/order.php
+CODE: $order_query->row['order_id'],
+LINE: 170
+
+FILE: admin/view/template/sale/order_info.tpl
+CODE: <td><?php echo $text_reward; ?></td>
+LINE: 100
+CODE: <?php echo $footer; ?>
+LINE: 700
+
+FILE: catalog/model/account/order.php
+CODE: $order_query->row['order_id'],
+LINE: 46
+
+FILE: catalog/controller/account/order.php
+CODE: if ($order_info['invoice_no']) {
+LINE: 210
+
+FILE: catalog/view/theme/default/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+
+FILE: catalog/view/theme/destiny/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Создатель форм
+
+FILE: admin/controller/common/header.php
+CODE: $data['alerts'] = $customer_total + $product_total + $review_total + $return_total + $affiliate_total;
+LINE: 114
+CODE: $this->load->language('common/header');
+LINE: 24
+
+FILE: admin/view/template/common/header.tpl
+CODE: <li class="dropdown-header"><?php echo $text_order; ?></li>
+LINE: 51
+----------------------------------------------------------------
+MOD: Обновление цены при выборе опций OC2 (без AJAX)
+
+FILE: admin/view/template/setting/setting.tpl
+CODE: <label class="col-sm-2 control-label"><span data-toggle="tooltip" title="<?php echo $help_currency_auto; ?>"><?php echo $entry_currency_auto; ?></span></label>
+LINE: 391
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_currency'])) {
+LINE: 668
+
+FILE: catalog/controller/product/category.php
+CODE: $price = $this->currency->format(
+LINE: 208
+CODE: $special = $this->currency->format(
+LINE: 219
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>
+LINE: 177
+LINE: 197
+LINE: 218
+
+FILE: catalog/view/theme/destiny/template/product/product.tpl
+CODE: <?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="<?php echo $option_value['product_option_value_id']; ?>"
+LINE: 175
+LINE: 191
+LINE: 212
+CODE: <?php echo $footer; ?>
+LINE: 865
+CODE: value="<?php echo $option_value['product_option_value_id']; ?>"
+LINE: 40
+LINE: 52
+LINE: 67
+LINE: 84
+CODE: <?php echo $footer; ?>
+LINE: 581
+
+FILE: catalog/model/catalog/product.php
+CODE: 'weight'                  => $product_option_value['weight'],
+LINE: 361
+
+FILE: catalog/controller/product/product.php
+CODE: $data['options'] = array();
+LINE: 427
+CODE: $product_option_value_data[] = array(
+LINE: 444
+
+FILE: system/library/cart/cart.php
+CODE: if ($product_discount_query->num_rows) {
+LINE: 194
+CODE: if ($product_special_query->num_rows) {
+LINE: 217
+----------------------------------------------------------------
+MOD: One page checkout
+
+FILE: catalog/controller/common/cart.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 140
+
+FILE: catalog/controller/common/header.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 86
+
+FILE: catalog/controller/checkout/cart.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 235
+----------------------------------------------------------------
+MOD: TMD Header Module
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: // Text
+LINE: 6
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: // Text
+LINE: 6
+
+FILE: admin/controller/common/column_left.php
+CODE: // System
+LINE: 432
+CODE: foreach ($categories as $category) {
+LINE: 102
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <?php if ($categories) { ?>
+LINE: 99
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 107
+CODE: <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+LINE: 163
+
+FILE: catalog/view/theme/destiny/template/common/header.tpl
+CODE: <?php if ($categories) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: 1 simple url rewrite
+
+FILE: catalog/controller/startup/startup.php
+CODE: new Url
+LINE: 36
+CODE: newUrl
+NOT FOUND - OPERATION SKIPPED!
+----------------------------------------------------------------
+2017-10-20 17:07:01 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: fondy_payment
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 11
+
+FILE: catalog/view/theme/default/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/destiny/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 31
+----------------------------------------------------------------
+MOD: OcStore 2.3.x track number
+
+FILE: admin/controller/sale/order.php
+CODE: $data['shipping_method'] = $order_info['shipping_method'];
+LINE: 567
+LINE: 942
+CODE: public function history() {
+LINE: 1545
+
+FILE: admin/model/sale/order.php
+CODE: $order_query->row['order_id'],
+LINE: 96
+
+FILE: catalog/model/checkout/order.php
+CODE: $order_query->row['order_id'],
+LINE: 170
+
+FILE: admin/view/template/sale/order_info.tpl
+CODE: <td><?php echo $text_reward; ?></td>
+LINE: 100
+CODE: <?php echo $footer; ?>
+LINE: 700
+
+FILE: catalog/model/account/order.php
+CODE: $order_query->row['order_id'],
+LINE: 46
+
+FILE: catalog/controller/account/order.php
+CODE: if ($order_info['invoice_no']) {
+LINE: 210
+
+FILE: catalog/view/theme/default/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+
+FILE: catalog/view/theme/destiny/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Создатель форм
+
+FILE: admin/controller/common/header.php
+CODE: $data['alerts'] = $customer_total + $product_total + $review_total + $return_total + $affiliate_total;
+LINE: 114
+CODE: $this->load->language('common/header');
+LINE: 24
+
+FILE: admin/view/template/common/header.tpl
+CODE: <li class="dropdown-header"><?php echo $text_order; ?></li>
+LINE: 51
+----------------------------------------------------------------
+MOD: Обновление цены при выборе опций OC2 (без AJAX)
+
+FILE: admin/view/template/setting/setting.tpl
+CODE: <label class="col-sm-2 control-label"><span data-toggle="tooltip" title="<?php echo $help_currency_auto; ?>"><?php echo $entry_currency_auto; ?></span></label>
+LINE: 391
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_currency'])) {
+LINE: 668
+
+FILE: catalog/controller/product/category.php
+CODE: $price = $this->currency->format(
+LINE: 208
+CODE: $special = $this->currency->format(
+LINE: 219
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>
+LINE: 177
+LINE: 197
+LINE: 218
+
+FILE: catalog/view/theme/destiny/template/product/product.tpl
+CODE: <?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="<?php echo $option_value['product_option_value_id']; ?>"
+LINE: 175
+LINE: 191
+LINE: 212
+CODE: <?php echo $footer; ?>
+LINE: 865
+CODE: value="<?php echo $option_value['product_option_value_id']; ?>"
+LINE: 40
+LINE: 52
+LINE: 67
+LINE: 84
+CODE: <?php echo $footer; ?>
+LINE: 581
+
+FILE: catalog/model/catalog/product.php
+CODE: 'weight'                  => $product_option_value['weight'],
+LINE: 361
+
+FILE: catalog/controller/product/product.php
+CODE: $data['options'] = array();
+LINE: 427
+CODE: $product_option_value_data[] = array(
+LINE: 444
+
+FILE: system/library/cart/cart.php
+CODE: if ($product_discount_query->num_rows) {
+LINE: 194
+CODE: if ($product_special_query->num_rows) {
+LINE: 217
+----------------------------------------------------------------
+MOD: One page checkout
+
+FILE: catalog/controller/common/cart.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 140
+
+FILE: catalog/controller/common/header.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 86
+
+FILE: catalog/controller/checkout/cart.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 235
+----------------------------------------------------------------
+MOD: TMD Header Module
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: // Text
+LINE: 6
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: // Text
+LINE: 6
+
+FILE: admin/controller/common/column_left.php
+CODE: // System
+LINE: 432
+CODE: foreach ($categories as $category) {
+LINE: 102
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <?php if ($categories) { ?>
+LINE: 99
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 107
+CODE: <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+LINE: 163
+
+FILE: catalog/view/theme/destiny/template/common/header.tpl
+CODE: <?php if ($categories) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: 1 simple url rewrite
+
+FILE: catalog/controller/startup/startup.php
+CODE: new Url
+LINE: 36
+CODE: newUrl
+NOT FOUND - OPERATION SKIPPED!
+----------------------------------------------------------------
+2017-10-20 17:09:52 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: fondy_payment
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 11
+
+FILE: catalog/view/theme/default/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/destiny/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 31
+----------------------------------------------------------------
+MOD: OcStore 2.3.x track number
+
+FILE: admin/controller/sale/order.php
+CODE: $data['shipping_method'] = $order_info['shipping_method'];
+LINE: 567
+LINE: 942
+CODE: public function history() {
+LINE: 1545
+
+FILE: admin/model/sale/order.php
+CODE: $order_query->row['order_id'],
+LINE: 96
+
+FILE: catalog/model/checkout/order.php
+CODE: $order_query->row['order_id'],
+LINE: 170
+
+FILE: admin/view/template/sale/order_info.tpl
+CODE: <td><?php echo $text_reward; ?></td>
+LINE: 100
+CODE: <?php echo $footer; ?>
+LINE: 700
+
+FILE: catalog/model/account/order.php
+CODE: $order_query->row['order_id'],
+LINE: 46
+
+FILE: catalog/controller/account/order.php
+CODE: if ($order_info['invoice_no']) {
+LINE: 210
+
+FILE: catalog/view/theme/default/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+
+FILE: catalog/view/theme/destiny/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Создатель форм
+
+FILE: admin/controller/common/header.php
+CODE: $data['alerts'] = $customer_total + $product_total + $review_total + $return_total + $affiliate_total;
+LINE: 114
+CODE: $this->load->language('common/header');
+LINE: 24
+
+FILE: admin/view/template/common/header.tpl
+CODE: <li class="dropdown-header"><?php echo $text_order; ?></li>
+LINE: 51
+----------------------------------------------------------------
+MOD: Обновление цены при выборе опций OC2 (без AJAX)
+
+FILE: admin/view/template/setting/setting.tpl
+CODE: <label class="col-sm-2 control-label"><span data-toggle="tooltip" title="<?php echo $help_currency_auto; ?>"><?php echo $entry_currency_auto; ?></span></label>
+LINE: 391
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_currency'])) {
+LINE: 668
+
+FILE: catalog/controller/product/category.php
+CODE: $price = $this->currency->format(
+LINE: 208
+CODE: $special = $this->currency->format(
+LINE: 219
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>
+LINE: 177
+LINE: 197
+LINE: 218
+
+FILE: catalog/view/theme/destiny/template/product/product.tpl
+CODE: <?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="<?php echo $option_value['product_option_value_id']; ?>"
+LINE: 175
+LINE: 191
+LINE: 212
+CODE: <?php echo $footer; ?>
+LINE: 865
+CODE: value="<?php echo $option_value['product_option_value_id']; ?>"
+LINE: 40
+LINE: 52
+LINE: 67
+LINE: 84
+CODE: <?php echo $footer; ?>
+LINE: 581
+
+FILE: catalog/model/catalog/product.php
+CODE: 'weight'                  => $product_option_value['weight'],
+LINE: 361
+
+FILE: catalog/controller/product/product.php
+CODE: $data['options'] = array();
+LINE: 427
+CODE: $product_option_value_data[] = array(
+LINE: 444
+
+FILE: system/library/cart/cart.php
+CODE: if ($product_discount_query->num_rows) {
+LINE: 194
+CODE: if ($product_special_query->num_rows) {
+LINE: 217
+----------------------------------------------------------------
+MOD: One page checkout
+
+FILE: catalog/controller/common/cart.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 140
+
+FILE: catalog/controller/common/header.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 86
+
+FILE: catalog/controller/checkout/cart.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 235
+----------------------------------------------------------------
+MOD: TMD Header Module
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: // Text
+LINE: 6
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: // Text
+LINE: 6
+
+FILE: admin/controller/common/column_left.php
+CODE: // System
+LINE: 432
+CODE: foreach ($categories as $category) {
+LINE: 102
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <?php if ($categories) { ?>
+LINE: 99
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 107
+CODE: <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+LINE: 163
+
+FILE: catalog/view/theme/destiny/template/common/header.tpl
+CODE: <?php if ($categories) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: 1 simple url rewrite
+
+FILE: catalog/controller/startup/startup.php
+CODE: new Url
+LINE: 36
+CODE: newUrl
+NOT FOUND - OPERATION SKIPPED!
+----------------------------------------------------------------
+2017-10-20 18:47:43 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: fondy_payment
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 11
+
+FILE: catalog/view/theme/default/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/destiny/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 31
+----------------------------------------------------------------
+MOD: OcStore 2.3.x track number
+
+FILE: admin/controller/sale/order.php
+CODE: $data['shipping_method'] = $order_info['shipping_method'];
+LINE: 567
+LINE: 942
+CODE: public function history() {
+LINE: 1545
+
+FILE: admin/model/sale/order.php
+CODE: $order_query->row['order_id'],
+LINE: 96
+
+FILE: catalog/model/checkout/order.php
+CODE: $order_query->row['order_id'],
+LINE: 170
+
+FILE: admin/view/template/sale/order_info.tpl
+CODE: <td><?php echo $text_reward; ?></td>
+LINE: 100
+CODE: <?php echo $footer; ?>
+LINE: 700
+
+FILE: catalog/model/account/order.php
+CODE: $order_query->row['order_id'],
+LINE: 46
+
+FILE: catalog/controller/account/order.php
+CODE: if ($order_info['invoice_no']) {
+LINE: 210
+
+FILE: catalog/view/theme/default/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+
+FILE: catalog/view/theme/destiny/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Создатель форм
+
+FILE: admin/controller/common/header.php
+CODE: $data['alerts'] = $customer_total + $product_total + $review_total + $return_total + $affiliate_total;
+LINE: 114
+CODE: $this->load->language('common/header');
+LINE: 24
+
+FILE: admin/view/template/common/header.tpl
+CODE: <li class="dropdown-header"><?php echo $text_order; ?></li>
+LINE: 51
+----------------------------------------------------------------
+MOD: Обновление цены при выборе опций OC2 (без AJAX)
+
+FILE: admin/view/template/setting/setting.tpl
+CODE: <label class="col-sm-2 control-label"><span data-toggle="tooltip" title="<?php echo $help_currency_auto; ?>"><?php echo $entry_currency_auto; ?></span></label>
+LINE: 391
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_currency'])) {
+LINE: 668
+
+FILE: catalog/controller/product/category.php
+CODE: $price = $this->currency->format(
+LINE: 208
+CODE: $special = $this->currency->format(
+LINE: 219
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>
+LINE: 177
+LINE: 197
+LINE: 218
+
+FILE: catalog/view/theme/destiny/template/product/product.tpl
+CODE: <?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="<?php echo $option_value['product_option_value_id']; ?>"
+LINE: 175
+LINE: 191
+LINE: 212
+CODE: <?php echo $footer; ?>
+LINE: 865
+CODE: value="<?php echo $option_value['product_option_value_id']; ?>"
+LINE: 40
+LINE: 52
+LINE: 67
+LINE: 84
+CODE: <?php echo $footer; ?>
+LINE: 581
+
+FILE: catalog/model/catalog/product.php
+CODE: 'weight'                  => $product_option_value['weight'],
+LINE: 361
+
+FILE: catalog/controller/product/product.php
+CODE: $data['options'] = array();
+LINE: 427
+CODE: $product_option_value_data[] = array(
+LINE: 444
+
+FILE: system/library/cart/cart.php
+CODE: if ($product_discount_query->num_rows) {
+LINE: 194
+CODE: if ($product_special_query->num_rows) {
+LINE: 217
+----------------------------------------------------------------
+MOD: One page checkout
+
+FILE: catalog/controller/common/cart.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 140
+
+FILE: catalog/controller/common/header.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 86
+
+FILE: catalog/controller/checkout/cart.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 235
+----------------------------------------------------------------
+MOD: TMD Header Module
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: // Text
+LINE: 6
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: // Text
+LINE: 6
+
+FILE: admin/controller/common/column_left.php
+CODE: // System
+LINE: 432
+CODE: foreach ($categories as $category) {
+LINE: 102
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <?php if ($categories) { ?>
+LINE: 99
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 107
+CODE: <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+LINE: 163
+
+FILE: catalog/view/theme/destiny/template/common/header.tpl
+CODE: <?php if ($categories) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: 1 simple url rewrite
+
+FILE: catalog/controller/startup/startup.php
+CODE: new Url
+LINE: 36
+CODE: newUrl
+NOT FOUND - OPERATION SKIPPED!
+----------------------------------------------------------------
+2017-10-30 6:07:59 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: fondy_payment
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 11
+
+FILE: catalog/view/theme/default/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/destiny/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 31
+----------------------------------------------------------------
+MOD: OcStore 2.3.x track number
+
+FILE: admin/controller/sale/order.php
+CODE: $data['shipping_method'] = $order_info['shipping_method'];
+LINE: 567
+LINE: 942
+CODE: public function history() {
+LINE: 1545
+
+FILE: admin/model/sale/order.php
+CODE: $order_query->row['order_id'],
+LINE: 96
+
+FILE: catalog/model/checkout/order.php
+CODE: $order_query->row['order_id'],
+LINE: 170
+
+FILE: admin/view/template/sale/order_info.tpl
+CODE: <td><?php echo $text_reward; ?></td>
+LINE: 100
+CODE: <?php echo $footer; ?>
+LINE: 700
+
+FILE: catalog/model/account/order.php
+CODE: $order_query->row['order_id'],
+LINE: 46
+
+FILE: catalog/controller/account/order.php
+CODE: if ($order_info['invoice_no']) {
+LINE: 210
+
+FILE: catalog/view/theme/default/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+
+FILE: catalog/view/theme/destiny/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Создатель форм
+
+FILE: admin/controller/common/header.php
+CODE: $data['alerts'] = $customer_total + $product_total + $review_total + $return_total + $affiliate_total;
+LINE: 114
+CODE: $this->load->language('common/header');
+LINE: 24
+
+FILE: admin/view/template/common/header.tpl
+CODE: <li class="dropdown-header"><?php echo $text_order; ?></li>
+LINE: 51
+----------------------------------------------------------------
+MOD: Обновление цены при выборе опций OC2 (без AJAX)
+
+FILE: admin/view/template/setting/setting.tpl
+CODE: <label class="col-sm-2 control-label"><span data-toggle="tooltip" title="<?php echo $help_currency_auto; ?>"><?php echo $entry_currency_auto; ?></span></label>
+LINE: 391
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_currency'])) {
+LINE: 668
+
+FILE: catalog/controller/product/category.php
+CODE: $price = $this->currency->format(
+LINE: 208
+CODE: $special = $this->currency->format(
+LINE: 219
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>
+LINE: 177
+LINE: 197
+LINE: 218
+
+FILE: catalog/view/theme/destiny/template/product/product.tpl
+CODE: <?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="<?php echo $option_value['product_option_value_id']; ?>"
+LINE: 175
+LINE: 191
+LINE: 212
+CODE: <?php echo $footer; ?>
+LINE: 865
+CODE: value="<?php echo $option_value['product_option_value_id']; ?>"
+LINE: 40
+LINE: 52
+LINE: 67
+LINE: 84
+CODE: <?php echo $footer; ?>
+LINE: 585
+
+FILE: catalog/model/catalog/product.php
+CODE: 'weight'                  => $product_option_value['weight'],
+LINE: 361
+
+FILE: catalog/controller/product/product.php
+CODE: $data['options'] = array();
+LINE: 427
+CODE: $product_option_value_data[] = array(
+LINE: 444
+
+FILE: system/library/cart/cart.php
+CODE: if ($product_discount_query->num_rows) {
+LINE: 194
+CODE: if ($product_special_query->num_rows) {
+LINE: 217
+----------------------------------------------------------------
+MOD: One page checkout
+
+FILE: catalog/controller/common/cart.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 140
+
+FILE: catalog/controller/common/header.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 86
+
+FILE: catalog/controller/checkout/cart.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 235
+----------------------------------------------------------------
+MOD: TMD Header Module
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: // Text
+LINE: 6
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: // Text
+LINE: 6
+
+FILE: admin/controller/common/column_left.php
+CODE: // System
+LINE: 432
+CODE: foreach ($categories as $category) {
+LINE: 102
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <?php if ($categories) { ?>
+LINE: 99
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 107
+CODE: <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+LINE: 163
+
+FILE: catalog/view/theme/destiny/template/common/header.tpl
+CODE: <?php if ($categories) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: 1 simple url rewrite
+
+FILE: catalog/controller/startup/startup.php
+CODE: new Url
+LINE: 36
+CODE: newUrl
+NOT FOUND - OPERATION SKIPPED!
+----------------------------------------------------------------
+MOD: Related / Dependent options
+
+FILE: admin/controller/catalog/product.php
+CODE: 'required'             => $product_option['required']
+LINE: 1244
+CODE: 'required'             => $product_option['required']
+LINE: 1554
+CODE: 'weight_prefix'           => $product_option_value['weight_prefix']
+LINE: 1231
+CODE: if (isset($this->error['warning'])) {
+LINE: 468
+LINE: 739
+CODE: if (isset($product_option['product_option_value'])) {
+LINE: 1252
+CODE: $data['option_values'] = array();
+LINE: 1305
+
+FILE: admin/model/catalog/product.php
+CODE: foreach ($data['product_option'] as $product_option) {
+LINE: 40
+LINE: 181
+CODE: $product_option_id = $this->db->getLastId();
+LINE: 48
+LINE: 192
+CODE: value = '" . $this->db->escape($product_option['value']) . "', required = '" . (int)$product_option['required'] . "'")
+LINE: 59
+LINE: 207
+CODE: "', weight_prefix = '" . $this->db->escape($product_option_value['weight_prefix']) . "'");
+LINE: 56
+LINE: 209
+CODE: => $product_option['required']
+LINE: 580
+CODE: 'weight_prefix'           => $product_option_value['weight_prefix']
+LINE: 567
+CODE: public function getProductImages($product_id)
+LINE: 654
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($product_options as $product_option) { ?>
+LINE: 502
+CODE: <?php if ($product_option['type'] == 'text') { ?>
+LINE: 555
+CODE: <?php if ($product_option['type'] == 'text') { ?>
+LINE: 576
+CODE: <?php if ($product_option['type'] == 'textarea') { ?>
+LINE: 605
+CODE: <?php if ($product_option['type'] == 'file') { ?>
+LINE: 634
+CODE: <?php if ($product_option['type'] == 'date') { ?>
+LINE: 663
+CODE: <?php if ($product_option['type'] == 'time') { ?>
+LINE: 696
+CODE: <?php if ($product_option['type'] == 'datetime') { ?>
+LINE: 729
+CODE: html += '        <td class="text-right"><?php echo $entry_weight; ?></td>';
+LINE: 1406
+CODE: <td class="text-right"><?php echo $entry_weight; ?></td>
+LINE: 754
+CODE: <td colspan="6"></td>
+LINE: 829
+LINE: 944
+LINE: 1419
+CODE: <input type="text" name="product_option[<?php echo $option_row; ?>][product_option_value][<?php echo $option_value_row; ?>][weight]" value="<?php echo $product_option_value['weight']; ?>" placeholder="<?php echo $entry_weight; ?>" class="form-control" /></td>
+LINE: 840
+CODE: <select id="option-values<?php echo $option_row; ?>" style="display: none;">
+LINE: 863
+CODE: if (item['type'] == 'text') {
+LINE: 1406
+CODE: html += '        <td class="text-right relate-option"><?php echo $entry_weight; ?></td>';
+LINE: 1462
+CODE: html  = '<div class="tab-pane" id="tab-option' + option_row + '">';
+LINE: 1376
+CODE: html += '  <input type="text" name="product_option[' + option_row + '][product_option_value][' + option_value_row + '][weight]" value="" placeholder="<?php echo $entry_weight; ?>" class="form-control" /></td>';
+LINE: 1559
+CODE: onclick="$('a[href=\'#tab-option<?php echo $option_row; ?>\']').parent().remove(); $('#tab-option<?php echo $option_row; ?>').remove(); $('#option a:first').tab('show');"
+LINE: 503
+CODE: onclick="$(this).tooltip('destroy');$('#option-value-row<?php echo $option_value_row; ?>').remove();"
+LINE: 841
+CODE: onclick=" $(\'#option a:first\').tab(\'show\');$(\'a[href=\\\'#tab-option' + option_row + '\\\']\').parent().remove(); $(\'#tab-option' + option_row + '\').remove();"
+LINE: 1495
+CODE: onclick="$(this).tooltip(\'destroy\');$(\'#option-value-row' + option_value_row + '\').remove();"
+LINE: 1560
+CODE: $('[rel=tooltip]').tooltip();
+LINE: 1568
+CODE: var option_value_row = <?php echo $option_value_row; ?>;
+LINE: 1608
+CODE: 'required'             => $option['required']
+LINE: 465
+CODE: 'price_prefix'            => $option_value['price_prefix']
+LINE: 453
+CODE: foreach ($this->model_catalog_product->getProductOptions($this->request->get['product_id']) as $option) {
+LINE: 432
+CODE: if ($product_info['minimum']) {
+LINE: 492
+CODE: $product_option_value_data = array();
+LINE: 458
+CODE: $data['options'][] = array(
+LINE: 489
+CODE: $data['text_loading'] = $this->language->get('text_loading');
+LINE: 290
+CODE: 'weight_prefix'           => $product_option_value['weight_prefix']
+LINE: 365
+CODE: 'required'             => $product_option['required']
+LINE: 379
+CODE: foreach ($product_option_query->rows as $product_option) {
+LINE: 345
+CODE: return $product_option_data;
+LINE: 403
+----------------------------------------------------------------
+2017-11-03 20:06:29 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: fondy_payment
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: public function index() {
+LINE: 11
+
+FILE: catalog/view/theme/default/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/destiny/template/checkout/checkout.tpl
+CODE: <h1><?php echo $heading_title; ?></h1>
+LINE: 31
+----------------------------------------------------------------
+MOD: OcStore 2.3.x track number
+
+FILE: admin/controller/sale/order.php
+CODE: $data['shipping_method'] = $order_info['shipping_method'];
+LINE: 567
+LINE: 942
+CODE: public function history() {
+LINE: 1545
+
+FILE: admin/model/sale/order.php
+CODE: $order_query->row['order_id'],
+LINE: 96
+
+FILE: catalog/model/checkout/order.php
+CODE: $order_query->row['order_id'],
+LINE: 170
+
+FILE: admin/view/template/sale/order_info.tpl
+CODE: <td><?php echo $text_reward; ?></td>
+LINE: 100
+CODE: <?php echo $footer; ?>
+LINE: 700
+
+FILE: catalog/model/account/order.php
+CODE: $order_query->row['order_id'],
+LINE: 46
+
+FILE: catalog/controller/account/order.php
+CODE: if ($order_info['invoice_no']) {
+LINE: 210
+
+FILE: catalog/view/theme/default/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+
+FILE: catalog/view/theme/destiny/template/account/order_info.tpl
+CODE: <b><?php echo $text_shipping_method; ?></b> <?php echo $shipping_method; ?>
+LINE: 49
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Создатель форм
+
+FILE: admin/controller/common/header.php
+CODE: $data['alerts'] = $customer_total + $product_total + $review_total + $return_total + $affiliate_total;
+LINE: 114
+CODE: $this->load->language('common/header');
+LINE: 24
+
+FILE: admin/view/template/common/header.tpl
+CODE: <li class="dropdown-header"><?php echo $text_order; ?></li>
+LINE: 51
+----------------------------------------------------------------
+MOD: Обновление цены при выборе опций OC2 (без AJAX)
+
+FILE: admin/view/template/setting/setting.tpl
+CODE: <label class="col-sm-2 control-label"><span data-toggle="tooltip" title="<?php echo $help_currency_auto; ?>"><?php echo $entry_currency_auto; ?></span></label>
+LINE: 391
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_currency'])) {
+LINE: 668
+
+FILE: catalog/controller/product/category.php
+CODE: $price = $this->currency->format(
+LINE: 208
+CODE: $special = $this->currency->format(
+LINE: 219
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>
+LINE: 177
+LINE: 197
+LINE: 218
+
+FILE: catalog/view/theme/destiny/template/product/product.tpl
+CODE: <?php echo $option_value['price_prefix']; ?><?php echo $option_value['price']; ?>
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="<?php echo $option_value['product_option_value_id']; ?>"
+LINE: 175
+LINE: 191
+LINE: 212
+CODE: <?php echo $footer; ?>
+LINE: 865
+CODE: value="<?php echo $option_value['product_option_value_id']; ?>"
+LINE: 47
+LINE: 66
+LINE: 85
+CODE: <?php echo $footer; ?>
+LINE: 588
+
+FILE: catalog/model/catalog/product.php
+CODE: 'weight'                  => $product_option_value['weight'],
+LINE: 361
+
+FILE: catalog/controller/product/product.php
+CODE: $data['options'] = array();
+LINE: 427
+CODE: $product_option_value_data[] = array(
+LINE: 444
+
+FILE: system/library/cart/cart.php
+CODE: if ($product_discount_query->num_rows) {
+LINE: 194
+CODE: if ($product_special_query->num_rows) {
+LINE: 217
+----------------------------------------------------------------
+MOD: One page checkout
+
+FILE: catalog/controller/common/cart.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 140
+
+FILE: catalog/controller/common/header.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 86
+
+FILE: catalog/controller/checkout/cart.php
+CODE: $data['checkout'] = $this->url->link('checkout/checkout', '', true);
+LINE: 235
+----------------------------------------------------------------
+MOD: TMD Header Module
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: // Text
+LINE: 6
+
+FILE: admin/language/ru-ru/common/column_left.php
+CODE: // Text
+LINE: 6
+
+FILE: admin/controller/common/column_left.php
+CODE: // System
+LINE: 432
+CODE: foreach ($categories as $category) {
+LINE: 102
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: <?php if ($categories) { ?>
+LINE: 99
+CODE: <?php foreach ($categories as $category) { ?>
+LINE: 107
+CODE: <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+LINE: 163
+
+FILE: catalog/view/theme/destiny/template/common/header.tpl
+CODE: <?php if ($categories) { ?>
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: 1 simple url rewrite
+
+FILE: catalog/controller/startup/startup.php
+CODE: new Url
+LINE: 36
+CODE: newUrl
+NOT FOUND - OPERATION SKIPPED!
+----------------------------------------------------------------
+MOD: Related / Dependent options
+
+FILE: admin/controller/catalog/product.php
+CODE: 'required'             => $product_option['required']
+LINE: 1244
+CODE: 'required'             => $product_option['required']
+LINE: 1554
+CODE: 'weight_prefix'           => $product_option_value['weight_prefix']
+LINE: 1231
+CODE: if (isset($this->error['warning'])) {
+LINE: 468
+LINE: 739
+CODE: if (isset($product_option['product_option_value'])) {
+LINE: 1252
+CODE: $data['option_values'] = array();
+LINE: 1305
+
+FILE: admin/model/catalog/product.php
+CODE: foreach ($data['product_option'] as $product_option) {
+LINE: 40
+LINE: 181
+CODE: $product_option_id = $this->db->getLastId();
+LINE: 48
+LINE: 192
+CODE: value = '" . $this->db->escape($product_option['value']) . "', required = '" . (int)$product_option['required'] . "'")
+LINE: 59
+LINE: 207
+CODE: "', weight_prefix = '" . $this->db->escape($product_option_value['weight_prefix']) . "'");
+LINE: 56
+LINE: 209
+CODE: => $product_option['required']
+LINE: 580
+CODE: 'weight_prefix'           => $product_option_value['weight_prefix']
+LINE: 567
+CODE: public function getProductImages($product_id)
+LINE: 654
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php foreach ($product_options as $product_option) { ?>
+LINE: 502
+CODE: <?php if ($product_option['type'] == 'text') { ?>
+LINE: 555
+CODE: <?php if ($product_option['type'] == 'text') { ?>
+LINE: 576
+CODE: <?php if ($product_option['type'] == 'textarea') { ?>
+LINE: 605
+CODE: <?php if ($product_option['type'] == 'file') { ?>
+LINE: 634
+CODE: <?php if ($product_option['type'] == 'date') { ?>
+LINE: 663
+CODE: <?php if ($product_option['type'] == 'time') { ?>
+LINE: 696
+CODE: <?php if ($product_option['type'] == 'datetime') { ?>
+LINE: 729
+CODE: html += '        <td class="text-right"><?php echo $entry_weight; ?></td>';
+LINE: 1406
+CODE: <td class="text-right"><?php echo $entry_weight; ?></td>
+LINE: 754
+CODE: <td colspan="6"></td>
+LINE: 829
+LINE: 944
+LINE: 1419
+CODE: <input type="text" name="product_option[<?php echo $option_row; ?>][product_option_value][<?php echo $option_value_row; ?>][weight]" value="<?php echo $product_option_value['weight']; ?>" placeholder="<?php echo $entry_weight; ?>" class="form-control" /></td>
+LINE: 840
+CODE: <select id="option-values<?php echo $option_row; ?>" style="display: none;">
+LINE: 863
+CODE: if (item['type'] == 'text') {
+LINE: 1406
+CODE: html += '        <td class="text-right relate-option"><?php echo $entry_weight; ?></td>';
+LINE: 1462
+CODE: html  = '<div class="tab-pane" id="tab-option' + option_row + '">';
+LINE: 1376
+CODE: html += '  <input type="text" name="product_option[' + option_row + '][product_option_value][' + option_value_row + '][weight]" value="" placeholder="<?php echo $entry_weight; ?>" class="form-control" /></td>';
+LINE: 1559
+CODE: onclick="$('a[href=\'#tab-option<?php echo $option_row; ?>\']').parent().remove(); $('#tab-option<?php echo $option_row; ?>').remove(); $('#option a:first').tab('show');"
+LINE: 503
+CODE: onclick="$(this).tooltip('destroy');$('#option-value-row<?php echo $option_value_row; ?>').remove();"
+LINE: 841
+CODE: onclick=" $(\'#option a:first\').tab(\'show\');$(\'a[href=\\\'#tab-option' + option_row + '\\\']\').parent().remove(); $(\'#tab-option' + option_row + '\').remove();"
+LINE: 1495
+CODE: onclick="$(this).tooltip(\'destroy\');$(\'#option-value-row' + option_value_row + '\').remove();"
+LINE: 1560
+CODE: $('[rel=tooltip]').tooltip();
+LINE: 1568
+CODE: var option_value_row = <?php echo $option_value_row; ?>;
+LINE: 1608
+CODE: 'required'             => $option['required']
+LINE: 465
+CODE: 'price_prefix'            => $option_value['price_prefix']
+LINE: 453
+CODE: foreach ($this->model_catalog_product->getProductOptions($this->request->get['product_id']) as $option) {
+LINE: 432
+CODE: if ($product_info['minimum']) {
+LINE: 492
+CODE: $product_option_value_data = array();
+LINE: 458
+CODE: $data['options'][] = array(
+LINE: 489
+CODE: $data['text_loading'] = $this->language->get('text_loading');
+LINE: 290
+CODE: 'weight_prefix'           => $product_option_value['weight_prefix']
+LINE: 365
+CODE: 'required'             => $product_option['required']
+LINE: 379
+CODE: foreach ($product_option_query->rows as $product_option) {
+LINE: 345
+CODE: return $product_option_data;
+LINE: 403
+----------------------------------------------------------------

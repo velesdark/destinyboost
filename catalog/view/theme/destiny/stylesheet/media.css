@@ -1,0 +1,170 @@
+@media (max-width: 1200px) {
+    .m_row {
+        width: 768px;
+    }
+
+    .product_block {
+        width: 50%;
+    }
+
+    .modules_right {
+        float: left;
+        margin-top: 30px;
+        width: 100%;
+        padding-left: 20px;
+    }
+
+    .ch_block_cont_line_all_right {
+        width: 100%;
+        float: left;
+    }
+
+    .m_row.row780 {
+        width: 768px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .m_row {
+        width: 320px;
+    }
+
+    .main_menu {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .main_menu > div > ul > li {
+        margin-right: 10px;
+    }
+
+    .main_menu > div > ul > li > a {
+        font-size: 13px;
+    }
+
+    .b1_title {
+        font-size: 25px;
+    }
+
+    .b1_title span {
+        font-size: 25px;
+        left: 46%;
+    }
+
+    .down {
+        margin-top: 10px;
+    }
+
+    .b1_btns .btn_blue {
+        margin-left: 0;
+        margin-top: 5px;
+    }
+
+    .b1_btns .btn_white {
+        margin-right: 0;
+    }
+
+    .b1_desc {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .b2_block {
+        width: 100%;
+
+    }
+
+    .main_block2 {
+        background: #0b1832;
+    }
+
+    .b2_block_text {
+        font-size: 13px;
+    }
+
+    .cat_block_img {
+        overflow: hidden;
+    }
+
+    .m_row.row780 {
+        width: 320px;
+    }
+
+    .cat_block {
+        width: 100%;
+    }
+
+    .cat_block_desc {
+        font-size: 12px;
+    }
+
+    .block3_title {
+        font-size: 23px;
+    }
+
+    .main_block3 {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .footer_menu {
+        width: 100%;
+
+    }
+
+    .footer_menu > div > ul > li {
+        margin-right: 10px;
+    }
+
+    .footer_menu > div > ul > li > a {
+        font-size: 13px;
+    }
+
+    .footer_middle_right {
+        float: Left;
+        margin-top: 10px;
+    }
+
+    .product_block {
+        width: 100%;
+    }
+
+    .product_block_desc {
+        font-size: 12px;
+    }
+
+    .main_content {
+        background: none;
+    }
+
+    .modules_left {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 0;
+    }
+
+    .ch_block_cont_line_all_left {
+        width: 100%;
+    }
+
+    .ch_block_cont_line_left {
+        width: 50px !important;
+        font-size: 10px;
+    }
+
+    .ch_block_cont_line {
+        width: 100% !important;
+    }
+
+    .cart_body table tr th {
+        display: none;
+    }
+
+    .cart_body table tr td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}

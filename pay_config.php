@@ -1,0 +1,6 @@
+<?
+define('MERCHANT_ID', '4398371783281359887');
+define('MERCHANT_SITE_ID', '143503');
+define('SECRET_KEY', 'DvFFuHkmUznPJ9PFyMdvNXi9DZ5TtxL2LDGsCvBZ5Zsc9J4KGvpTtgUr68gPCBjd');
+define('TEST_SITE', true);
+

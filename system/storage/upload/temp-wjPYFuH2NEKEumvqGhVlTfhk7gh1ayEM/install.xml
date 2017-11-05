@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+    <name>Создатель форм</name>
+    <code>form-creator</code>
+    <version>2</version>
+    <author>opencart2x.ru</author>
+    <link>https://opencart2x.ru</link>
+
+    <!-- add notification to controller -->
+    <file path="admin/controller/common/header.php">
+        <operation>
+            <search trim="true">
+                <![CDATA[
+				$data['alerts'] = $customer_total + $product_total + $review_total + $return_total + $affiliate_total;
+				]]></search>
+            <add position="replace"><![CDATA[
+				// Feedbacks 
+					$this->load->model('extension/module/sobfeedback');
+					/*echo "<pre>";
+					var_dump($feedback_total = $this->model_extension_module_sobfeedback->getTotalFeedbacks(array('filter_noread' => 'noread')));
+					echo "</pre>";*/
+
+					if ($this->model_extension_module_sobfeedback->getTotalFeedbacks() !== false) {
+						$feedback_total = $this->model_extension_module_sobfeedback->getTotalFeedbacks(array('filter_noread' => 'noread'));
+						
+						$data['feedback_total'] = $feedback_total;
+						$data['feedback_noread'] = $this->url->link('extension/module/sobfeedback/getlist', 'token=' . $this->session->data['token'] . '&filter_noread=noread', 'SSL');
+
+						$data['alerts'] = $customer_total + $product_total + $review_total + $return_total + $affiliate_total + $feedback_total;
+					} else {
+						$data['alerts'] = $customer_total + $product_total + $review_total + $return_total + $affiliate_total;
+					}
+			]]></add>
+        </operation>
+        <operation>
+            <search trim="true">
+                <![CDATA[
+				$this->load->language('common/header');
+				]]></search>
+            <add position="after"><![CDATA[
+				$this->load->language('extension/module/sobfeedback');
+				$data['text_notif_feedbacks'] = $this->language->get('text_notif_feedbacks');
+			]]></add>
+        </operation>
+    </file>
+    <!-- add notification to template -->
+
+    <file path="admin/view/template/common/header.tpl">
+        <operation>
+            <search trim="true">
+                <![CDATA[
+				<li class="dropdown-header"><?php echo $text_order; ?></li>
+				]]></search>
+            <add position="after"><![CDATA[
+				<?php if (isset($feedback_total)) { ?>
+					<!-- Feedback alert -->
+        			 <li><a href="<?php echo $feedback_noread; ?>"><span class="label label-danger pull-right"><?php echo $feedback_total; ?></span><?php echo $text_notif_feedbacks; ?></a></li>
+        			 <?php } ?>
+			]]></add>
+        </operation>
+    </file>
+
+
+</modification>
