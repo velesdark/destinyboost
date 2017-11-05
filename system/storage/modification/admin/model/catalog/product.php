@@ -44,7 +44,7 @@ class ModelCatalogProduct extends Model
             foreach ($data['product_option'] as $product_option) {
                 if ($product_option['type'] == 'select' || $product_option['type'] == 'radio' || $product_option['type'] == 'checkbox' || $product_option['type'] == 'image') {
                     if (isset($product_option['product_option_value'])) {
-                        $this->db->query("INSERT INTO " . DB_PREFIX . "product_option SET product_id = '" . (int)$product_id . "', option_id = '" . (int)$product_option['option_id'] . "', required = '" . (int)$product_option['required'] . "'");
+                        $this->db->query("INSERT INTO " . DB_PREFIX . "product_option SET product_id = '" . (int)$product_id . "', option_id = '" . (int)$product_option['option_id'] . "', required = '" . (int)$product_option['required'] . "', show_title = '" . (int)$product_option['show_title'] . "'");
 
                         $product_option_id = $this->db->getLastId();
 //BOF Related Options
@@ -61,7 +61,7 @@ class ModelCatalogProduct extends Model
                         }
                     }
                 } else {
-                    $this->db->query("INSERT INTO " . DB_PREFIX . "product_option SET product_id = '" . (int)$product_id . "', option_id = '" . (int)$product_option['option_id'] . "', value = '" . $this->db->escape($product_option['value']) . "', required = '" . (int)$product_option['required'] . "'");
+                    $this->db->query("INSERT INTO " . DB_PREFIX . "product_option SET product_id = '" . (int)$product_id . "', option_id = '" . (int)$product_option['option_id'] . "', value = '" . $this->db->escape($product_option['value']) . "', required = '" . (int)$product_option['required'] . "', show_title = '" . (int)$product_option['show_title'] . "'");
 //BOF Related Options
                     $product_option_id = $this->db->getLastId();
                     $this->db->query("UPDATE " . DB_PREFIX . "product_option SET master_option = '" . (int)$product_option['master_option'] . "', master_option_value = '" . (int)$product_option['master_option_value'] . "' WHERE product_option_id = '" . $this->db->getLastId() . "'");
@@ -198,7 +198,7 @@ class ModelCatalogProduct extends Model
             foreach ($data['product_option'] as $product_option) {
                 if ($product_option['type'] == 'select' || $product_option['type'] == 'radio' || $product_option['type'] == 'checkbox' || $product_option['type'] == 'image') {
                     if (isset($product_option['product_option_value'])) {
-                        $this->db->query("INSERT INTO " . DB_PREFIX . "product_option SET product_option_id = '" . (int)$product_option['product_option_id'] . "', product_id = '" . (int)$product_id . "', option_id = '" . (int)$product_option['option_id'] . "', required = '" . (int)$product_option['required'] . "'");
+                        $this->db->query("INSERT INTO " . DB_PREFIX . "product_option SET product_option_id = '" . (int)$product_option['product_option_id'] . "', product_id = '" . (int)$product_id . "', option_id = '" . (int)$product_option['option_id'] . "', required = '" . (int)$product_option['required'] . "', show_title = '" . (int)$product_option['show_title'] . "'");
 
                         $product_option_id = $this->db->getLastId();
 //BOF Related Options
@@ -215,7 +215,7 @@ class ModelCatalogProduct extends Model
                         }
                     }
                 } else {
-                    $this->db->query("INSERT INTO " . DB_PREFIX . "product_option SET product_option_id = '" . (int)$product_option['product_option_id'] . "', product_id = '" . (int)$product_id . "', option_id = '" . (int)$product_option['option_id'] . "', value = '" . $this->db->escape($product_option['value']) . "', required = '" . (int)$product_option['required'] . "'");
+                    $this->db->query("INSERT INTO " . DB_PREFIX . "product_option SET product_option_id = '" . (int)$product_option['product_option_id'] . "', product_id = '" . (int)$product_id . "', option_id = '" . (int)$product_option['option_id'] . "', value = '" . $this->db->escape($product_option['value']) . "', required = '" . (int)$product_option['required'] . "', show_title = '" . (int)$product_option['show_title'] . "'");
 //BOF Related Options
                     $product_option_id = $this->db->getLastId();
                     $this->db->query("UPDATE " . DB_PREFIX . "product_option SET master_option = '" . (int)$product_option['master_option'] . "', master_option_value = '" . (int)$product_option['master_option_value'] . "' WHERE product_option_id = '" . $this->db->getLastId() . "'");
@@ -595,6 +595,7 @@ class ModelCatalogProduct extends Model
                 'master_option_value' => $product_option['master_option_value'],
                 'master_option_data' => $this->getProductOption($product_id, $product_option['master_option']),
                 // EOF Related Options
+                'show_title' => $product_option['show_title'],
                 'required' => $product_option['required']
             );
         }
@@ -608,7 +609,6 @@ class ModelCatalogProduct extends Model
 
         return $query->row;
     }
-
 //BOF Related Options
     public function getProductOption($product_id, $option_id)
     {
@@ -651,6 +651,7 @@ class ModelCatalogProduct extends Model
                     'name' => $product_option['name'],
                     'type' => $product_option['type'],
                     'product_option_value' => $product_option_value_data,
+                    'show_title' => $product_option['show_title'],
                     'required' => $product_option['required']
                 );
             } else {
@@ -660,6 +661,7 @@ class ModelCatalogProduct extends Model
                     'name' => $product_option['name'],
                     'type' => $product_option['type'],
                     'option_value' => $product_option['value'],
+                    'show_title' => $product_option['show_title'],
                     'required' => $product_option['required']
                 );
             }
@@ -667,7 +669,6 @@ class ModelCatalogProduct extends Model
 
         return $product_option_data;
     }
-
     // EOF Related Options
 
     public function getProductImages($product_id)

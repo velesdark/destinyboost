@@ -694,6 +694,28 @@
                                                    value="<?php echo $product_option['type']; ?>"/>
                                             <div class="form-group">
                                                 <label class="col-sm-2 control-label"
+                                                       for="input-show_title<?php echo $option_row; ?>">Show
+                                                    Title</label>
+                                                <div class="col-sm-10">
+                                                    <select name="product_option[<?php echo $option_row; ?>][show_title]"
+                                                            id="input-show_title<?php echo $option_row; ?>"
+                                                            class="form-control">
+                                                        <?php if ($product_option['show_title']) { ?>
+                                                        <option value="1"
+                                                                selected="selected"><?php echo $text_yes; ?></option>
+                                                        <option value="0"><?php echo $text_no; ?></option>
+                                                        <?php } else { ?>
+                                                        <option value="1"><?php echo $text_yes; ?></option>
+                                                        <option value="0"
+                                                                selected="selected"><?php echo $text_no; ?></option>
+                                                        <?php } ?>
+                                                    </select>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label"
                                                        for="input-required<?php echo $option_row; ?>"><?php echo $entry_required; ?></label>
                                                 <div class="col-sm-10">
                                                     <select name="product_option[<?php echo $option_row; ?>][required]"
@@ -1853,12 +1875,22 @@
                 html += '	<input type="hidden" name="product_option[' + option_row + '][type]" value="' + item['type'] + '" />';
 
                 html += '	<div class="form-group">';
+                html += '	  <label class="col-sm-2 control-label" for="input-show_title' + option_row + '">Show Title</label>';
+                html += '	  <div class="col-sm-10"><select name="product_option[' + option_row + '][show_title]" id="input-show_title' + option_row + '" class="form-control">';
+                html += '	      <option value="1"><?php echo $text_yes; ?></option>';
+                html += '	      <option value="0"><?php echo $text_no; ?></option>';
+                html += '	  </select></div>';
+                html += '	</div>';
+
+
+                html += '	<div class="form-group">';
                 html += '	  <label class="col-sm-2 control-label" for="input-required' + option_row + '"><?php echo $entry_required; ?></label>';
                 html += '	  <div class="col-sm-10"><select name="product_option[' + option_row + '][required]" id="input-required' + option_row + '" class="form-control">';
                 html += '	      <option value="1"><?php echo $text_yes; ?></option>';
                 html += '	      <option value="0"><?php echo $text_no; ?></option>';
                 html += '	  </select></div>';
                 html += '	</div>';
+
 
                 <!--BOF Related Options-->
                 html += '	  <div class="form-group">';
@@ -2059,7 +2091,6 @@
                 }
             });
         }
-
         function master_option_del(option_row) {
             var option_id = $('input[name="product_option[' + option_row + '][option_id]"]').val();
             $('select[name$="[master_option]"]').each(function () {
@@ -2137,7 +2168,6 @@
 
             option_value_row++;
         }
-
         //--></script>
     <script type="text/javascript"><!--
         var discount_row =
@@ -2183,7 +2213,6 @@
 
             discount_row++;
         }
-
         //--></script>
     <script type="text/javascript"><!--
         var special_row =
@@ -2228,7 +2257,6 @@
 
             special_row++;
         }
-
         //--></script>
     <script type="text/javascript"><!--
         var image_row =
@@ -2250,7 +2278,6 @@
 
             image_row++;
         }
-
         //--></script>
     <script type="text/javascript"><!--
         var recurring_row =
@@ -2310,7 +2337,6 @@
 
             recurring_row++;
         }
-
         //--></script>
     <script type="text/javascript"><!--
         $('.date').datetimepicker({

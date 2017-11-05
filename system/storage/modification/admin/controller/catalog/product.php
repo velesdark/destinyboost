@@ -736,6 +736,7 @@ class ControllerCatalogProduct extends Controller
         $data['tab_links'] = $this->language->get('tab_links');
         $data['tab_reward'] = $this->language->get('tab_reward');
         $data['tab_design'] = $this->language->get('tab_design');
+
         $data['tab_openbay'] = $this->language->get('tab_openbay');
 
 //BOF Related Options
@@ -1101,6 +1102,7 @@ class ControllerCatalogProduct extends Controller
             $data['width'] = '';
         }
 
+
         if (isset($this->request->post['height'])) {
             $data['height'] = $this->request->post['height'];
         } elseif (!empty($product_info)) {
@@ -1290,6 +1292,7 @@ class ControllerCatalogProduct extends Controller
                     'master_option' => $product_option['master_option'],
                     'master_option_data' => $master_option_data,
                     //EOF Related Options
+                    'show_title' => $product_option['show_title'],
                     'required' => $product_option['required']
                 );
             } //BOF Related Options
@@ -1305,6 +1308,7 @@ class ControllerCatalogProduct extends Controller
                     'master_option_data' => $master_option_data,
                     'master_option_value' => isset($product_option['master_option_value']) ? $product_option['master_option_value'] : 0,
                     //EOF Related Options
+                    'show_title' => $product_option['show_title'],
                     'required' => $product_option['required']
                 );
             }
@@ -1620,6 +1624,7 @@ class ControllerCatalogProduct extends Controller
                             'master_option_data' => isset($product_option['master_option_data']) ? $product_option['master_option_data'] : array(),
                             'master_option_value' => isset($product_option['master_option_value']) ? $product_option['master_option_value'] : 0,
                             //EOF Related Options
+                            'show_title' => $product_option['show_title'],
                             'required' => $product_option['required']
                         );
                     }
